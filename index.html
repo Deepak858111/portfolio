@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Deepak's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Deepak Namdev</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button id="toggle-dark">Toggle Dark Mode</button> <!-- 👈 Dark mode button -->
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a BCA student learning web development and AI.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>Learning JavaScript</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>Coming soon! (Add your projects here)</p>
+  </section>
+
+  <section id="contact">
+  <h2>Contact Me</h2>
+  <form id="contact-form">
+    <label for="name">Name:</label><br />
+    <input type="text" id="name" placeholder="Your Name" required /><br />
+
+    <label for="email">Email:</label><br />
+    <input type="email" id="email" placeholder="Your Email" required /><br />
+
+    <label for="message">Message:</label><br />
+    <textarea id="message" placeholder="Your Message" required></textarea><br />
+
+    <button type="submit">Send Message</button>
+  </form>
+  <p id="form-message" style="color: green; font-weight: bold;"></p>
+</section>
+
+  <footer>
+    <p>&copy; 2025 Deepak Namdev</p>
+  </footer>
+
+    <!-- 👇 Link JS -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+
